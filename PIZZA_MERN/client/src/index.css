@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link{
+  color: rgb(255, 253, 253) !important;
+}
+
+.navbar-brand{
+  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Reenie Beanie', cursive !important;
+  font-size: 35px !important;
+  color: #fff !important;
+}
+
+h1{
+  font-size: 20px !important;
+}
+
+.flex-container{
+  display: flex !important;
+}
+
+.btn{
+  background-color: red !important;
+  color: white !important;
+  
+
+
+}
+
+select{
+  box-shadow: none !important;
+  border-color: black !important;
+
+}
+
+.fa-plus{
+  color:green;
+  margin: 5px;
+}
+.fa-minus{
+  color: red !important;
+  margin: 5px;
+}
+.fa-trash{
+  color: red;
+}
+
+input{
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+
+.btn-grad {background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)}
+.btn-grad {
+   margin: 2px;
+   padding: 8px 25px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 25px;
+   display: block;
+
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+.login{
+  padding-top: 100px !important;
+
+}
+
+.loginsa{
+  color: #eee !important;
+  padding-top: 100px !important;
+  font-size:larger;
+}
+
+
+.container{
+  padding-top: 50px;
+}
+
+.loginStyle{
+  font-family: 'Ma Shan Zheng', cursive !important;
+  margin-top: 70px !important ;
+  text-align: center !important;
+  font-size: 65px !important;
+}
+.registrationStyle{
+  font-family: 'Ma Shan Zheng', cursive !important;
+  margin-top: 70px !important ;
+  text-align: center !important;
+  font-size: 65px !important;
+
+}
+
+.pizzaHead{
+  font-family: 'Gochi Hand', cursive;
+font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Reenie Beanie', cursive;
+font-size: 35px !important;
+font-weight: bolder !important;
+}
+
+.mycart{
+  font-family: 'Ma Shan Zheng', cursive !important;
+  margin-top: 40px !important ;
+  margin-bottom: 50px;
+  text-align: center !important;
+  font-size: 65px !important;
+  
+}
+
+.carts{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+}
+
+/* ========= */
+
+.adminfunctions{
+  padding: 10px;
+  background-color: rgb(0, 102, 255);
+}
+.adminfunctions li{
+  list-style-type: none !important ;
+  display: inline !important;
+}
+.adminfunctions li a{
+  color: white;
+  padding: 40px;
+}
+td,tr,th{
+  text-align: left;
+}
+
+
+footer {
+  background: rgb(3, 4, 46);
+  color: #aaa;
+  padding-top: 10px;
+}
+
+footer a {
+  color: #aaa;
+} 
+
+footer a:hover {
+  color: #fff;
+}
+
+footer h3 {
+ color: #fff9f9;
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+
+footer .three-column {
+ overflow: hidden;
+}
+
+footer .three-column li{
+ width: 33.3333%;
+  float: left;
+  padding: 5px 0;
+}
+
+footer .socila-list {
+  overflow: hidden;
+  margin: 20px 0 10px;
+}
+
+footer .socila-list li {
+  float: left;
+  margin-right: 3px;
+  overflow: hidden;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+
+footer .copyright {
+  padding: 15px 0;
+  background: #333;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+footer .copyright span {
+  color: #0894d1;
+}
+
+.listSt{
+  list-style-type: none !important;
+  overflow: hidden;
+  
+}
+
+.mynav{
+  background-color: #03072e !important;
+}
+
+footer .media-body strike{
+  color: #fff;
+}
+
+.paybtn{
+
+/* CSS */
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 21px;
+ 
+  touch-action: manipulation;
+
+}
+
+.paybtn:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+
+/* ============ track */
+.card {
+  border: none;
+  border-radius: 10px !important;
+}
+
+.c-details span {
+  font-weight: 300 !important;
+  font-size: 13px !important;
+  display: inline-flex !important;
+
+}
+
+.icon {
+  width: 50px !important;
+  height: 50px;
+  background-color: #eee !important;
+  border-radius: 15px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-size: 39px !important;
+}
+
+.badge span {
+  background-color: #37e6a3 !important;
+  width: 65px !important;
+  height: 25px !important;
+  padding-bottom: 3px !important;
+  border-radius: 5px !important;
+  display: flex !important;
+  color: #004910 !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+
+
+.text1 {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+
+.text2 {
+  color: #a5aec0 !important;
+}
+
+
+.myimg{
+  border: #AA076B !important;
+}
+
+.listStt{
+  list-style-type: none !important;
+  overflow: hidden;
+  width: 20%;
+  margin-left: 800px;
+}
+
+.trackStyle{
+  font-family: 'Ma Shan Zheng', cursive !important;
+  text-align: center !important;
+  font-size: 65px !important;
+
+}
+.trackStatus{
+  font-family: 'Ma Shan Zheng', cursive !important;
+  text-align: center !important;
+  font-size: 45px !important;
+  margin-bottom: 40px;
+}
+
+.headItem{
+  font-size: 45px !important;
+  font-family: 'Ma Shan Zheng', cursive !important;
+
+}
+
+.sideHead{
+  font-size: 25px !important;
+ 
+font-family: 'Reenie Beanie', cursive !important;
+margin-left: 60px;
+}
+
+
+
+/* =====================================================orders================================ */
+
+.invoice-container {
+  padding: 1rem;
+}
+.invoice-container .invoice-header .invoice-logo {
+  margin: 0.8rem 0 0 0;
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2e323c;
+}
+.invoice-container .invoice-header .invoice-logo img {
+  max-width: 130px;
+}
+.invoice-container .invoice-header address {
+  font-size: 0.8rem;
+  color: #000205;
+  margin: 0;
+}
+.invoice-container .invoice-details {
+  margin: 1rem 0 0 0;
+  padding: 1rem;
+  line-height: 180%;
+  background: #f5f6fa;
+}
+.invoice-container .invoice-details .invoice-num {
+  text-align: right;
+  font-size: 0.8rem;
+  color: #000205;
+}
+.invoice-container .invoice-body {
+  padding: 1rem 0 0 0;
+}
+.invoice-container .invoice-footer {
+  text-align: center;
+  font-size: 0.7rem;
+  margin: 5px 0 0 0;
+}
+
+.invoice-status {
+  text-align: center;
+  padding: 1rem;
+  background: #ffffff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+.invoice-status h2.status {
+  margin: 0 0 0.8rem 0;
+}
+.invoice-status h5.status-title {
+  margin: 0 0 0.8rem 0;
+  color: #9fa8b9;
+}
+.invoice-status p.status-type {
+  margin: 0.5rem 0 0 0;
+  padding: 0;
+  line-height: 150%;
+}
+.invoice-status i {
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+  display: inline-block;
+  padding: 1rem;
+  background: #f5f6fa;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+.invoice-status .badge {
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .invoice-container {
+      padding: 1rem;
+  }
+}
+
+
+.custom-table {
+  border: 1px solid #e0e3ec;
+}
+.custom-table thead {
+  background: #007ae1;
+}
+.custom-table thead th {
+  border: 0;
+  color: #ffffff;
+}
+.custom-table > tbody tr:hover {
+  background: #fafafa;
+}
+.custom-table > tbody tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+.custom-table > tbody td {
+  border: 1px solid #e6e9f0;
+}
+
+
+.card {
+  background: #ffffff;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.text-success {
+  color: #00bb42 !important;
+}
+
+.text-muted {
+  color: #9fa8b9 !important;
+}
+
+.custom-actions-btns {
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.custom-actions-btns .btn {
+  margin: .3rem 0 .3rem .3rem;
+}
