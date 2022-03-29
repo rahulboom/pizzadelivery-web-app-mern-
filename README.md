@@ -1,4 +1,4 @@
 # pizzadelivery-web-app-mern-
 pizza delivery web app using mern technology
-PIZZA_MERN/images/homepage.jpg
-![](images/homepage.jpg)
+
+![homepage](https://user-images.githubusercontent.com/61103916/160648314-3306d90b-430f-40c3-a6c7-c44e795dbb0d.jpg)
