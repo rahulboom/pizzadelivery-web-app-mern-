@@ -5,6 +5,8 @@ using this we can order the pizza do the payment see your ordered pizza and you 
 
 there is admin side which can add , modify and delete the user , order and pizza
 
+all the data is saved in cloud mongo db atlas 
+
 
 
 TECHNOLOGIES USED
