@@ -6,3 +6,10 @@ pizza delivery web app using mern technology
 home page of the pizza delivery app we can select pizza quantity and varient and add to cart 
 
 ![middle_homepage](https://user-images.githubusercontent.com/61103916/160649381-ef65eff3-b0f7-4292-9610-34d2dfc62df7.jpg)
+
+react particle is used to get the moving background design
+
+
+![footer](https://user-images.githubusercontent.com/61103916/160649761-110fd671-d304-45fa-94b2-85f37bf98694.jpg)
+
+footer of the home page
