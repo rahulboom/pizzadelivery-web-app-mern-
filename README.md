@@ -1,4 +1,4 @@
-# pizzadelivery-web-app-mern(mongo-express-react-node)-
+# responsive-pizzadelivery-web-app-mern(mongo-express-react-node)-
 pizza delivery web app using mern(mongo,express,react,node) technology
 
 using this we can order the pizza do the payment see your ordered pizza and you can also track your ordered pizza.
